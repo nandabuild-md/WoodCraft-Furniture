@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Newsreader", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-surface-bright: #fdf9f4;
+  --color-on-secondary-container: #766051;
+  --color-tertiary: #330e00;
+  --color-on-primary-container: #ac9181;
+  --color-surface-container-highest: #e6e2dd;
+  --color-surface-container-high: #ebe8e3;
+  --color-surface-tint: #705a4c;
+  --color-primary-fixed: #fbddca;
+  --color-surface: #fdf9f4;
+  --color-secondary-container: #fbddca;
+  --color-surface-dim: #ddd9d5;
+  --color-primary-fixed-dim: #dec1af;
+  --color-inverse-surface: #31302d;
+  --color-on-secondary-fixed: #27180d;
+  --color-on-tertiary-container: #d78058;
+  --color-tertiary-fixed-dim: #ffb595;
+  --color-error: #ba1a1a;
+  --color-background: #fdf9f4;
+  --color-surface-container: #f1ede8;
+  --color-on-tertiary: #ffffff;
+  --color-surface-container-low: #f7f3ee;
+  --color-on-error-container: #93000a;
+  --color-on-secondary-fixed-variant: #564335;
+  --color-secondary-fixed: #fbddca;
+  --color-outline: #81756e;
+  --color-on-surface: #1c1c19;
+  --color-surface-variant: #e6e2dd;
+  --color-on-primary: #ffffff;
+  --color-outline-variant: #d2c4bc;
+  --color-inverse-on-surface: #f4f0eb;
+  --color-secondary-fixed-dim: #ddc1af;
+  --color-tertiary-fixed: #ffdbcd;
+  --color-on-background: #1c1c19;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-primary: #26170c;
+  --color-on-primary-fixed-variant: #574335;
+  --color-on-surface-variant: #4f453f;
+  --color-on-primary-fixed: #28180d;
+  --color-on-tertiary-fixed-variant: #753311;
+  --color-on-secondary: #ffffff;
+  --color-inverse-primary: #dec1af;
+  --color-secondary: #705a4b;
+  --color-surface-container-lowest: #ffffff;
+  --color-tertiary-container: #551d00;
+  --color-primary-container: #3d2b1f;
+  --color-on-tertiary-fixed: #351000;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Hide scrollbar for clean parallax look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface-container-lowest);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-outline-variant);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-outline);
+}
