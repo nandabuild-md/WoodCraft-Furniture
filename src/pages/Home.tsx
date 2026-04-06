@@ -48,7 +48,7 @@ function HeroSection() {
               Lihat Katalog
               <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
             </a>
-            <a href="#kontak" className="inline-flex items-center justify-center px-8 py-4 bg-surface/80 backdrop-blur-sm border border-outline-variant/80 shadow-md text-primary rounded-sm font-medium hover:bg-surface transition-colors">
+            <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20website%20WoodCraft%20Furniture%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo6.astmay.space%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-surface/80 backdrop-blur-sm border border-outline-variant/80 shadow-md text-primary rounded-sm font-medium hover:bg-surface transition-colors">
               Konsultasi Desain
             </a>
           </div>
@@ -236,7 +236,7 @@ function PricingSection() {
               <li className="flex items-center gap-3"><Check className="w-4 h-4 text-[#C4714A]" /> Garansi 6 Bulan</li>
               <li className="flex items-center gap-3 opacity-30"><X className="w-4 h-4" /> Kustom Dimensi</li>
             </ul>
-            <button className="w-full py-4 bg-transparent border border-outline text-primary font-medium rounded-sm hover:bg-surface-container-high transition-colors">Pilih Starter</button>
+            <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20paket%20Starter%20WoodCraft%20Furniture%20(demo6.astmay.space)%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="w-full py-4 bg-transparent border border-outline text-primary font-medium rounded-sm hover:bg-surface-container-high transition-colors text-center block">Pilih Starter</a>
           </div>
           <div className="bg-primary-container p-10 rounded-sm shadow-2xl relative z-10 flex flex-col h-full transform lg:scale-105">
             <div className="absolute top-0 right-10 bg-[#C4714A] text-white text-[10px] uppercase font-bold tracking-widest px-4 py-1 -translate-y-1/2 rounded-full">Terpopuler</div>
@@ -251,7 +251,7 @@ function PricingSection() {
               <li className="flex items-center gap-3"><Check className="w-4 h-4 text-tertiary-fixed" /> Garansi 2 Tahun</li>
               <li className="flex items-center gap-3"><Check className="w-4 h-4 text-tertiary-fixed" /> Finishing Matte/Satin</li>
             </ul>
-            <button className="w-full py-4 bg-white text-primary-container font-medium rounded-sm hover:bg-surface-container-low transition-colors">Pilih Growth</button>
+            <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20paket%20Growth%20WoodCraft%20Furniture%20(demo6.astmay.space)%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="w-full py-4 bg-white text-primary-container font-medium rounded-sm hover:bg-surface-container-low transition-colors text-center block">Pilih Growth</a>
           </div>
           <div className="bg-surface p-10 rounded-sm border border-outline-variant/20 flex flex-col h-full">
             <h3 className="font-sans text-sm uppercase tracking-widest text-on-surface-variant mb-4 font-semibold">Ultimate</h3>
@@ -265,7 +265,7 @@ function PricingSection() {
               <li className="flex items-center gap-3"><Check className="w-4 h-4 text-[#C4714A]" /> Garansi Seumur Hidup</li>
               <li className="flex items-center gap-3"><Check className="w-4 h-4 text-[#C4714A]" /> Prioritas Pengiriman</li>
             </ul>
-            <button className="w-full py-4 bg-transparent border border-outline text-primary font-medium rounded-sm hover:bg-surface-container-high transition-colors">Pilih Ultimate</button>
+            <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20paket%20Ultimate%20WoodCraft%20Furniture%20(demo6.astmay.space)%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="w-full py-4 bg-transparent border border-outline text-primary font-medium rounded-sm hover:bg-surface-container-high transition-colors text-center block">Pilih Ultimate</a>
           </div>
         </div>
       </div>
@@ -335,7 +335,7 @@ function CTASection() {
           />
           <div className="relative z-10 max-w-2xl">
             <h2 className="font-serif text-5xl md:text-6xl text-white mb-8">Mulai Proyek Kamu.</h2>
-            <a href="#kontak" className="inline-flex items-center px-10 py-5 bg-white text-primary-container rounded-sm font-bold text-lg hover:bg-surface-container-low transition-colors shadow-lg">
+            <a href="https://wa.me/6283167987800?text=Halo%20Astrina%2C%20saya%20tertarik%20dengan%20website%20WoodCraft%20Furniture%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo6.astmay.space%2C%20bisakah%20saya%20dapat%20free%20konsultasi%3F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-10 py-5 bg-white text-primary-container rounded-sm font-bold text-lg hover:bg-surface-container-low transition-colors shadow-lg">
               Minta Penawaran Gratis
             </a>
           </div>

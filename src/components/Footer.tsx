@@ -35,8 +35,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="mt-20 pt-8 border-t border-outline-variant/30 text-center">
+      <div className="mt-20 pt-8 border-t border-outline-variant/30 text-center space-y-2">
         <p className="text-on-surface-variant font-sans text-xs tracking-widest uppercase">© 2024 WoodCraft. Jepara, Jawa Tengah.</p>
+        <p className="text-on-surface-variant/60 font-sans text-xs">Website oleh <a href="https://astmay.space" target="_blank" rel="noopener" className="text-primary/60 hover:text-primary transition-colors underline">Astrina Maysaroh — Jasa Pembuatan Website Profesional</a></p>
       </div>
     </footer>
   );
