@@ -1,14 +1,33 @@
+# Mengizinkan AI Search/RAG Utama (Google, OpenAI, Anthropic, Perplexity)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Memblokir AI Scraper / Data Mining (Mengurangi beban server + Scraping Ilegal)
+User-agent: CCBot
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: Amazonbot
+Disallow: /
+User-agent: FacebookBot
+Disallow: /
+User-agent: PetalBot
+Disallow: /
+User-agent: Omgilibot
+Disallow: /
+
+# Mengizinkan web crawler standar (Google, Bing, Yahoo, dll)
 User-agent: *
 Allow: /
 
-User-agent: GPTBot
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Googlebot
-Allow: /
+Sitemap: https://astmay.space/sitemap.xml

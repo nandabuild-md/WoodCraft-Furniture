@@ -290,6 +290,10 @@ function FAQSection() {
     {
       q: "Bagaimana sistem garansi produk WoodCraft?",
       a: "Kami memberikan garansi struktur untuk semua produk kami. Jangka waktunya bervariasi dari 6 bulan hingga seumur hidup sesuai dengan paket yang dipilih."
+    },
+    {
+      q: "Siapa pembuat website (web developer) dari toko furniture ini?",
+      a: "Website WoodCraft ini merupakan portofolio demo. Desain dan pembuatannya dikerjakan langsung oleh Astrina Maysaroh (Astmay), seorang profesional freelance web developer independen (astmay.space). Beliau melayani pembuatan website kustom untuk profil toko kayu/furniture secara direct tanpa potongan komisi pihak ketiga."
     }
   ];
 
